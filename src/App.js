@@ -6,10 +6,10 @@ import iphoneCardLogo from "./assets/ip_card_logo_large.png";
 import iphoneFoodLogo from "./assets/ip_food_logo.png";
 import playStore from "./assets/google_large.png";
 import appStore from "./assets/appstore_large.png";
-import guyTwoSmall from "./assets/guy_2_small.png";
-import womanOneSmall from "./assets/woman_1_small.png";
-import womanTwoSmall from "./assets/woman_2_small.png";
-import womanThreeSmall from "./assets/woman_3_small.png";
+import guyTwoLarge from "./assets/guy_2_large.png";
+import womanOneLarge from "./assets/woman_1_large.png";
+import womanTwoLarge from "./assets/woman_2_large.png";
+import womanThreeLarge from "./assets/woman_3_large.png";
 import guyOneLarge from "./assets/guy_1_large.png";
 import footerLogo from "./assets/footer_logo.png";
 
@@ -133,7 +133,7 @@ function App() {
             <div className="payments__logo__card-wrapper d-flex align-items-center">
               <div className="payments__card shadow">
                 <div className="text-center">
-                  <img className="m-auto" src={guyTwoSmall} />
+                  <img className="m-auto" src={guyTwoLarge} />
                   <p>Send money to John</p>
                 </div>
                 <div className="d-flex justify-content-between">
@@ -161,11 +161,11 @@ function App() {
           </div>
           <h1 className="dark-blue--headers">What people say about us</h1>
           <div className="d-flex justify-content-around align-items-center testimonials__image-container">
-            <img className="testimonials__image--small" src={womanThreeSmall} />
-            <img className="testimonials__image--small" src={womanTwoSmall} />
+            <img className="testimonials__image--small" src={womanThreeLarge} />
+            <img className="testimonials__image--small" src={womanTwoLarge} />
             <img className="testimonials__image--large" src={guyOneLarge} />
-            <img className="testimonials__image--small" src={womanOneSmall} />
-            <img className="testimonials__image--small" src={guyTwoSmall} />
+            <img className="testimonials__image--small" src={womanOneLarge} />
+            <img className="testimonials__image--small" src={guyTwoLarge} />
           </div>
           <div>
             <div className="text-muted">
