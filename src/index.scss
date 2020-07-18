@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap");
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+@import "./styles/banner.scss";
+@import "./styles/about.scss";
+@import "./styles/rewards.scss";
+@import "./styles/payments.scss";
+@import "./styles/testimonials.scss";
+@import "./styles/contact.scss";
+@import "./styles/footer.scss";
+
+@import "./styles/vars.scss";
+
+html {
+  font-size: 16;
+}
+body {
+  font-family: $main-font !important;
+  box-sizing: border-box;
+  margin: 0;
+
+  .warning--headers {
+    font-weight: bold;
+    color: $warning;
+  }
+  .dark-blue--headers {
+    color: $liz-eyes;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .gray--description {
+    color: gray;
+  }
+  .shared-button--small {
+    color: #ffffff;
+  }
+  .shared-button--large {
+    color: #ffffff;
+    padding: 1rem;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: "bold";
+    margin-top: 3rem;
+  }
+  .shared-button--warning {
+    background-color: $warning;
+  }
+  .shared-button--dark-blue {
+    background-color: $lcd-dark;
+  }
+  .header--spacing-large {
+    letter-spacing: 5px;
+  }
+}

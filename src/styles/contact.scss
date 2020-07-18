@@ -1,0 +1,31 @@
+.contact {
+  background-color: $blue;
+  padding: 2rem;
+  text-align: center;
+
+  &__header {
+    font-weight: 500;
+  }
+  &__subheader {
+    color: $light-blue;
+    letter-spacing: 4px;
+    font-size: 0.8rem;
+  }
+  &__description--small {
+    color: #e5e5e5;
+    font-size: 0.8rem;
+  }
+  &__form {
+    margin: 3rem 0;
+    input,
+    button {
+      height: 50px;
+    }
+    input {
+      font-size: 0.8rem;
+    }
+  }
+  &__button {
+    width: 150px;
+  }
+}

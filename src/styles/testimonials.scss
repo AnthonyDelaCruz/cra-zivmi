@@ -1,0 +1,15 @@
+.testimonials {
+  margin-top: 4rem;
+  padding: 4rem 0;
+  text-align: center;
+
+  &__image-container {
+    padding: 3rem 4rem;
+  }
+  &__image--large {
+    height: 150px;
+  }
+  &__image--small {
+    height: 100px;
+  }
+}

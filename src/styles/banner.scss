@@ -1,0 +1,41 @@
+.banner {
+  height: 650px;
+  overflow: hidden;
+
+  &__text {
+    margin: auto 0;
+    width: 50%;
+
+    &__logo--apple {
+      height: 40px;
+    }
+    &__logo--google {
+      height: 60px;
+    }
+  }
+  &__text--header {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  &__text--subheader {
+    font-weight: 200;
+  }
+  &__phone-logos {
+    position: relative;
+    &__ip {
+      height: 600px;
+      width: 600px;
+      &--overlap {
+        position: absolute;
+        left: -3.4375rem;
+      }
+      &--under {
+        position: absolute;
+        left: 8.5rem;
+        bottom: 25px;
+        height: 650px;
+        z-index: -1;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.payments {
+  min-height: 600px;
+  overflow: hidden;
+
+  &__card {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 1.5rem;
+    background: #ffffff;
+    position: absolute;
+    left: -100px;
+    &__amount {
+      color: $lcd-dark;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    &__currency {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    img {
+      width: 100px;
+    }
+    p {
+      color: gray;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+  }
+  &__logo {
+    flex: 1;
+    position: relative;
+    &__card-wrapper {
+      position: absolute;
+      right: -150px;
+      background-color: $blue;
+      border-radius: 50%;
+      width: 600px;
+      height: 600px;
+    }
+  }
+  &__content {
+    flex: 1;
+
+    &__wrapper {
+      justify-self: flex-end;
+      width: 500px;
+    }
+  }
+}

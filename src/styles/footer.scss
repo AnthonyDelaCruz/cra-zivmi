@@ -1,0 +1,22 @@
+footer {
+  .footer__links {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 2rem 0;
+    &__container {
+      align-items: center;
+      justify-content: space-between;
+      span {
+        font-size: 0.9rem;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+    img {
+      align-self: flex-start;
+      height: 60px;
+    }
+  }
+  .footer__copyright {
+    font-size: 0.8rem;
+  }
+}
