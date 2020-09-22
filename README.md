@@ -1,4 +1,4 @@
-# Zivme Landing page
+# Zivme
 
 A fictional landing page for a Fintech mobile application. Made only for __Desktop__ viewing.
 
